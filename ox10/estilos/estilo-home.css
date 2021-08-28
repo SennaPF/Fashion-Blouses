@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+html{
+    background-image: url(WhatsApp\ Image\ 2021-08-24\ at\ 21.03.01.jpeg) ;
+   
+
+  
+}
+
+
+header {
+    padding: 15px;
+    background-color: #39AFE6;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: center;
+}
+
+#lista {
+    padding: 20px 0px 0px 0px;
+    position: absolute;
+    margin-left: 15%;
+    
+   
+
+}
+
+.a-li {
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    margin: 0px;
+    
+}
+
+.a-li:hover {
+    color: crimson;
+    background-color: darkgoldenrod;
+    transition: 0.5;
+}
+
+#ul-menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+
+    
+}
+
+   img{
+       height: 90px;
+       width: 90px;
+       margin-right: 10%;
+
+       
+   }
+
+
+   body {
+         
+        font-family: Arial, Helvetica, sans-serif;
+       margin-left: 10%;
+    margin-right: 9%;
+         
+   }
+   
+   
+ 
+   #imagens{
+       margin-top: 200px;
+       margin-left: 400px;
+       
+   }
+
+   
+   .content h1 {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #39AFE6;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 90%;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#g1{
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin-left: -200px;
+    transition: 0.7s;
+    height: 300px;
+    width: 400px;
+    
+}
+
+#g2{
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: auto;
+    margin-left: -450px;
+    transition: 0.7s;
+    height: 300px;
+    
+}
+#g3{
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: auto;
+    margin-left: -225px;
+    transition: 0.7s;
+    height: 300px;
+    
+}
+#g4{
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: auto;
+    margin-left: 20px;
+    transition: 0.7s;
+    height: 300px;
+    
+}
+#g5{
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: auto;
+    margin-left: 250px;
+    transition: 0.7s;
+    height: 300px;
+    
+}
+
+#div34{
+    position: absolute;
+    text-align: center;
+    background-color: rgb(144, 208, 224);
+    height: 400px;
+    width: 900px;
+    margin-left: 100px;
+   
+    
+
+}
+
+#div35{
+    margin-top: 500px;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(144, 208, 224);
+    height: 400px;
+    width: 1200px;
+    margin-left: -50px;
+}

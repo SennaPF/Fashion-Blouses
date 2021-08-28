@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    height: 90px;
+    width: 90px;
+    margin-right: 10%;
+
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/fundo.jpeg);
+}
+
+header {
+    padding: 15px;
+    background-color: #39AFE6;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: center;
+}
+
+#lista {
+    padding: 20px 0px 0px 0px;
+    position: absolute;
+    margin-left: 15%;
+    
+   
+
+}
+
+.a-li {
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    margin: 0px;
+    
+}
+
+.a-li:hover {
+    color: crimson;
+    background-color: darkgoldenrod;
+    transition: 0.5;
+}
+
+#ul-menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+
+    
+}
+
+
+#main-login {
+    background-color: rgb(131, 252, 252);
+    width: 500px;
+    height: 400px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto auto auto;
+    border: solid blue 1px;
+    border-radius: 10px;
+    background-color: rgb(99, 163, 232);
+}
+
+#main-login h1 {
+    color: rgb(0, 34, 34);
+    padding: 20px;
+    background-color:rgb(32, 118, 118);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#cx-login {
+    align-items: center;
+    display: block;
+    background-image: linear-gradient(to top, rgb(199, 242, 250), rgb(176, 176, 255));
+    border-radius: 10px;
+    height: 250px;
+    width: 350px;
+    margin: auto;
+}
+
+#main-login p {
+    padding: 10px;
+    font-size: 17px;
+    color: rgb(3, 29, 53);
+    font-weight: bolder;
+}
+
+
+#acessar {  
+    position: absolute;
+    left: 45.6%;
+    width: 120px;
+    padding: 5px;
+    border: solid blue 1px;
+    margin: -3px;
+    background-color: rgba(0, 0, 255, 0.282);
+}
+
+#acessar:hover {
+    background-color: rgba(86, 86, 255, 0.248);
+}
+
+#login {
+    padding: 5px 15px 5px 15px;
+    size: 70px;
+    background-color: #99c3ff;
+
+}
+
+#main-login a {
+    text-decoration: none;
+    font-size: bold;
+    font-weight: bold;
+    color: rgb(1, 1, 100);
+}
+
+#main-login a:hover {
+    color: rgb(0, 0, 79);
+    text-decoration: underline;
+}

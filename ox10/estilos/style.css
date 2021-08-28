@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(camisa.jpeg);
+}
+
+
+header {
+    background-color: #29384D;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: center;
+}
+
+#lista {
+    padding: 20px 0px 0px 0px;
+
+}
+
+#ul-menu a {
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    margin: 0px;
+}
+
+#ul-menu a:hover {
+    color: crimson;
+    background-color: darkgoldenrod;
+    transition: 0.5;
+}
+
+#ul-menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+

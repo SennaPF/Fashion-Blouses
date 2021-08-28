@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    
+   font-family: Arial, Helvetica, sans-serif;
+   background-size: cover;
+   margin-left: 10%;
+   margin-right: 9%;
+   background-image: url(images.jpeg);
+   
+}
+#menu{
+    background-image: url(wpp.jpg);
+    width: 100px;
+    height: 90px;
+
+}
+
+#nav {
+    background-color: #4ec0f5;
+    top:10px;
+    width: 1200px;
+    height: 85px;
+    padding: 10px;
+    left: 100px;
+    position: absolute;
+       
+}
+
+#h1{
+    background-color:rgb(255, 255, 255);
+    color: rgb(36, 34, 34);
+    top: 135px;
+    position: absolute;
+}
+#li1:hover{
+    transition: 1,0;
+    background-color: #E65064;
+    padding:5px;
+    list-style-type: none;
+}
+#li2:hover{
+    transition: 1,0x;
+    background-color: #E65064;
+    padding:5px
+}
+#li3:hover{
+    transition: 1,0;
+    background-color: #E65064;
+    padding:5px
+}
+#li4:hover{
+    transition: 1,0;
+    background-color: #E65064;
+    padding:5px
+}
+#li5:hover{
+    transition: 1,0;
+    background-color: #E65064;
+    padding:5px
+}
+#li6:hover{
+    transition: 1,0;
+    background-color: #E65064;
+    padding:5px
+}
+#li7:hover{
+    transition: 1,0;
+    background-color: #E65064;
+    padding:5px
+}
+a{
+text-decoration: none;
+}
+#li1{
+    left: 250px;
+    position: absolute;
+    top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    list-style-type: none;
+    }
+    #li2{
+    left: 350px;
+    top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+
+    }
+
+    #li3{
+    left: 490px;
+    position: absolute;
+    top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    }
+
+    #li4{
+    left: 650px;
+    position: absolute;
+    top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#li5{
+    left:830px;
+    position: absolute;
+    top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#li6{
+    left: 980px;
+    position: absolute;
+    top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#li7{
+    left: 1120px;
+    position: absolute;
+    top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#p1{
+    position: absolute;
+    font-size: 19px;
+    color: rgb(31, 28, 28);
+    background-color: rgb(184, 222, 243);
+    top: 200px;
+    text-indent: 20px;
+    
+}
+#div1{
+   
+    background-image: url(nj.jpeg);
+    height: 600px;
+    width: 571px;
+    left: 650px;
+    top: 120px;
+    position: absolute;
+}
+#div2{
+    background-color: #ffffff;
+    height: 600px;
+    width: 630px;
+    top: 120px;
+    position:absolute;
+    left:0px;
+}
+#imgbody{
+    top: 300px;
+    position: absolute;
+    background-image: url(vermelha.jpg);
+    height: 400px;
+    width: 400px;
+    left: 50px;
+
+}
+#body1{
+    background-color: black;
+    top: 730px;
+    left: 0px;
+    height: 300px;
+    width: 340px;
+position: absolute;
+}
+
+#body2{
+    background-color: black;
+    top: 730px;
+    left: 440px;
+    height: 300px;
+    width: 340px;
+position: absolute;
+}
+#body3{
+    background-color: black;
+    top: 730px;
+    left: 890px;
+    height: 300px;
+    width: 340px;
+position: absolute;
+}
+
+#body4{
+    background-color: black;
+    top: 1070px;
+    left:0px;
+    height: 300px;
+    width: 340px;
+position: absolute;
+}
+
+#body5{
+    background-color: black;
+    top: 1070px;
+    left: 440px;
+    height: 300px;
+    width: 340px;
+position: absolute;
+}
+
+#body6{
+    background-color: black;
+    top: 1070px;
+    left: 890px;
+    height: 300px;
+    width: 340px;
+position: absolute;
+}
+
+
+#divpropaganda{
+    position: absolute;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    top: 740px;
+    height: 280px;
+    width:320px;
+}
+#divpropagandaum{
+position:absolute;  
+height: 280px;
+width:320px;
+top:740px;
+left: 450px;
+}
+#divpropagandadois{
+    position: absolute;
+    background-color:rgb(0, 0, 0) ;
+    height: 280px;
+    width: 320px;
+    top: 740px;
+    left: 900px;}
+
+    #divpropagandatres{
+        position: absolute;
+        background-color: yellow;
+        color: rgb(0, 0, 0);
+        top: 1080px;
+        height: 280px;
+        width:320px;
+
+    }
+    #divpropagandaquatro{
+        position:absolute;  
+        height: 280px;
+        width:320px;
+        top:1080px;
+        left: 450px;
+    }
+    #divpropagandacinco{
+        position: absolute;
+        background-color:rgb(0, 0, 0) ;
+        height: 280px;
+        width: 320px;
+        top: 1080px;
+       left: 900px;}
+
+#div3{
+        background-color: #991f2f;
+        height: 80px;
+        width: 1210px;
+        top: 1440px;
+        position:absolute;
+}
+
+    #rodape{
+        background-color: rgb(228, 228, 228);
+        font-size: 20px;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        top: 1490px;
+        left: 470px;
+        
+    }
